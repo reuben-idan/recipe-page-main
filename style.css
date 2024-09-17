@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fadede;
+}
+
+.recipe-card {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+
+.recipe-image {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recipe-details {
+  padding: 20px;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.info-label {
+  color: #666;
+  font-weight: bold;
+}
+
+.info-value {
+  margin-left: 5px;
+}
+
+.detail-card {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fceaea;
+}
+
+.info-item {
+  text-align: left;
+}
+
+.info-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+
+.ingredients-section, .instructions-section, .nutrition-section {
+  margin-bottom: 20px;
+}
+
+.ingredients-list, .instructions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredient-card {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fdfdfd;
+}
+
+
+.instruction-card {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fdfdfd;
+}
+.horizontal-lines {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.horizontal-lines th, .horizontal-lines td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.horizontal-lines th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.horizontal-lines .amount {
+  color: red;
+}
+
+
+
+.colored-bullets li::marker {
+  color: rgb(238, 7, 7);
+}
+
+
+.colored-numbers li::marker {
+  color: rgb(238, 7, 7);
+}
