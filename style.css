@@ -116,7 +116,7 @@ body {
   color: rgb(238, 7, 7);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .recipe-card {
     margin: 10px;
     padding: 10px;
